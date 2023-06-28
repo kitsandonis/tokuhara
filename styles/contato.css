@@ -1,0 +1,39 @@
+.container__contato-desktop {
+    display: none;
+}
+
+.container__contato-mobile {
+    background-color: var(--cor-cinza-claro);
+    padding: 2em 2em;
+}
+
+.container__contato-box {
+    background-color: var(--cor-branco);
+    border-radius: 15px;
+    padding: 1em 1em;
+}
+
+.container__contato-subtitulo {
+    font-weight: 300;
+    padding-right: 30%;
+}
+
+.container__contato-titulo {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 0.5em;
+}
+
+.container__contato-paragrafo-link {
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    gap: 0.3em;
+    text-decoration: none;
+    color: var(--cor-preto);
+    font-size: 14px;
+}
+
+.container__contato-paragrafo {
+    font-size: 14px;
+}

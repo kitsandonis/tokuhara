@@ -1,0 +1,21 @@
+@import url(styles/header.css);
+@import url(styles/hero.css);
+@import url(styles/solucoes.css);
+@import url(styles/praticas.css);
+@import url(styles/contato.css);
+@import url(styles/footer.css);
+
+:root {
+    --cor-preto: #000000;
+    --cor-branco: #FFFFFF;
+    --cor-verde: #1F7800;
+    --cor-cinza-claro: #D9D9D9;
+    --cor-cinza-medio: #3D3D3D;
+    --cor-cinza-escuro: #444444;
+}
+
+body {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+}

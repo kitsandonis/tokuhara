@@ -1,0 +1,44 @@
+.container__praticas {
+    background-color: var(--cor-branco);
+    padding: 2em 2em;
+}
+
+.container__praticas-img {
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.container__praticas-subtitulo {
+    font-weight: 300;
+    padding-right: 30%;
+}
+
+.container__praticas-titulo {
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 0.5em;
+}
+
+.container__praticas-paragrafo {
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+.container__praticas-strong {
+    font-weight: 600;
+}
+
+@media screen and (min-width: 900px) {
+    .container__praticas {
+        display: flex;
+        padding: 2em 8%;
+    }
+
+    .container__praticas-img {
+        width: 400px;
+    }
+
+    .container__praticas-right {
+        margin-left: 2em;
+    }
+}

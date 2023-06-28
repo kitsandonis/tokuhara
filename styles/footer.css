@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--cor-preto);
+    padding: 2em 2em;
+    text-align: center;
+}
+
+.footer__paragrafo {
+    color: var(--cor-branco);
+    font-size: 12px;
+}
